@@ -1,6 +1,6 @@
 {
   "name": "create-kochanowski",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to create a new Kochanowski project",
   "dependencies": {
     "chalk": "^5.3.0",
