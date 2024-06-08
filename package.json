@@ -7,8 +7,6 @@
     "inquirer": "^9.2.23"
   },
   "main": "index.js",
-  "bin": {
-    "create-kochanowski": "./bin/kochanowski.js"
-  },
+  "bin": "./bin/kochanowski.js",
   "type": "module"
 }
