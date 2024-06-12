@@ -35,10 +35,10 @@ async function createKochanowskiProject() {
   console.log(
     chalk.blue(`Initializing a new Kochanowski project in ${projectPath}`)
   );
-  execSync("npm init -y", { stdio: "inherit" });
+  execSync("npm init -y ", { stdio: [] });
 
   console.log(chalk.blue("Installing Kochanowski package..."));
-  execSync("npm install kochanowski", { stdio: "inherit" });
+  execSync("npm install --silent kochanowski", { stdio: "inherit" });
 
   createHelloWorldFile();
   addStartScript();
