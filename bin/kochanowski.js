@@ -38,7 +38,7 @@ async function createKochanowskiProject() {
   execSync("npm init -y", { stdio: "inherit" });
 
   console.log(chalk.blue("Installing Kochanowski package..."));
-  execSync("npm install kochanowski.js", { stdio: "inherit" });
+  execSync("npm install kochanowski", { stdio: "inherit" });
 
   createHelloWorldFile();
   addStartScript();
