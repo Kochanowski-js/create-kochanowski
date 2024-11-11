@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "bin": {
-    "kochanowski": "./bin/kochanowski"
+    "kochanowski": "./bin/kochanowski.js"
   },
   "scripts": {
     "start": "node ./bin/kochanowski.js"
