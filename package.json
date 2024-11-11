@@ -1,6 +1,6 @@
 {
   "name": "create-kochanowski",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A package to create a new Kochanowski project",
   "dependencies": {
     "chalk": "^5.3.0",
@@ -9,6 +9,9 @@
   "main": "index.js",
   "bin": {
     "kochanowski": "./bin/kochanowski"
+  },
+  "scripts": {
+    "start": "node ./bin/kochanowski.js"
   },
   "type": "module"
 }
